@@ -135,7 +135,7 @@ terraform show
    - After creating it will look like this:
 
    <p align="center">
-  <img src="./Project-documentation/eks-cluster-role.png" width="600" title="eks-cluster-role" alt="eks-cluster-role">
+  <img src="./Project-documentation/eks-cluster_role.png" width="600" title="eks-cluster-role" alt="eks-cluster-role">
   </p>
 
    - Please attach `AmazonEKS_CNI_Policy` explicitly if it is not attached by default
