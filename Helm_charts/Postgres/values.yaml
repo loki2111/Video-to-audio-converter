@@ -1,0 +1,13 @@
+service:
+  name: db
+  port: 5432
+  nodeport: 30003
+
+container:
+  image: postgres
+  env:
+    user: lokesh
+    password: lokesh123
+    db: authdb
+# Customize the values below to set your desired usernames and passwords
+
