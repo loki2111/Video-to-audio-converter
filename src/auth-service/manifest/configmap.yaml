@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  DATABASE_HOST: db #used in code so dont change or change on both side.
+  DATABASE_NAME: authdb #used in code so dont change or change on both side.
+  DATABASE_USER: lokesh
+  AUTH_TABLE: auth_user

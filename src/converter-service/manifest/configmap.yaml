@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: converter-configmap
+data:
+  MP3_QUEUE: "mp3"
+  VIDEO_QUEUE: "video"
+  MONGODB_URI: "mongodb://lokesh:lokesh123@mongodb:27017/mp3s?authSource=admin" #nodeip:nodeport
+#"mongodb://username:password@mongodb:27017/mp3s?authSource=admin"  
+#replace with mongodb username password
